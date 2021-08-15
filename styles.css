@@ -1,9 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@300;400;500;600;700&display=swap');
 
 :root{
-    --primary-color: #F87171;
+    /* --primary-color: #4f92ff; */
+    --primary-color: #236ee6;
     --off-white: #F3F4F6;
-    --dark-gray: #6B7280;
+    --dark-gray: #6a6f79;
 }
 
 body{
@@ -66,7 +69,8 @@ hr{
 
 .navigation .nav-brand{
     font-weight: bold;
-
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.3rem;
 }
 
 .navigation .nav-pills{
@@ -90,6 +94,17 @@ hr{
     max-width: 350px;
     display: block;
     margin: auto;
+}
+
+
+@media screen and (max-width: 360px) {
+    .hero-img{
+        width: 260px;
+    }
+
+    .list-item-inline{
+        padding: 0rem;
+    }
 }
 
 .hero .hero-heading{
@@ -117,7 +132,7 @@ hr{
 
 .footer{
     background-color: var(--primary-color);
-    padding: 2rem 1rem;
+    padding: 2rem 0 0.5rem 0;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
@@ -134,5 +149,9 @@ hr{
 
 .footer ul {
     padding-inline-start: 0px;
+}
+
+.icon{
+    font-size: 1.5rem;
 }
 
