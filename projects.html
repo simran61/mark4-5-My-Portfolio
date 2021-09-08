@@ -1,256 +1,234 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects | SimranGangwani</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Simran Gangwani | Home</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
         integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
 </head>
 
 <body>
-    <!-- nav bar -->
-    <nav class="navigation container">
-        <div class="nav-brand">SimranCodes</div>
-        <ul class="list-non-bullet nav-pills">
-            <li class="list-item-inline">
-                <a class="link" href="/">Home</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link link-active" href="projects.html">Projects</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="blogs.html">Blogs</a>
-            </li>
+
+    <!-- Navigation Menu -->
+    <div class="nav-bar">
+        <div class="brand">SimranCodes</div>
+        <ul class="nav-menu">
+            <li class="menu"><a href="index.html" class="menu">Home</a></li>
+            <li class="menu"><a href="blogs.html" class="menu">Blogs</a></li>
+            <li class="menu"><a style="color: rgb(90, 163, 197);" href="projects.html" class="menu">Projects</a></li>
+            <li class="menu"><a href="index.html#designing" class="menu">Designing</a></li>
+            <li class="menu"><a href="index.html#skills" class="menu">Skills</a></li>
+            <li class="menu"><a href="index.html#contact" class="menu">Contact</a></li>
         </ul>
-    </nav>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </div>
+    <hr>
 
-    <!-- header -->
-    <header class="hero">
-        <img class="hero-img" src="images/projects.svg" alt="">
-        <h1 class="hero-heading">See my <span class="heading-inverted">projects</span></h1>
-    </header>
-
-    <ul style="padding-inline-start: 0" class="list-non-bullet">
-
-        <li>
-            <div class="section">
-                <div class="container container-center">
-                    <h2 style="text-align:left;">12. Were You Born In A Leap Year?</h2>
-                    <small>25th Aug, 2021</small><br>
-                    <small><strong>#bonusProject</strong></small>
-                    <p>This web-app built in HTML,CSS and Vanilla JS.This app checks whether you were born in a leap year or not. This app is just for fun & do not store any of your data. Click on live project and
-                        try this app</p><br>
-                    <a class="link link-primary" href="https://simran-leapyear.netlify.app/">Live
-                        Project</a><br><br><br>
-                    <a class="link link-secondary" href="https://github.com/simran61/BONUS-Is-Your-Bday-Leap-Year">View
+    <section style="padding-top: 0;" id="header" class="section">
+        <div style="text-align: center; margin: 2rem;" class="heading"><span class="grey">My</span><span class="secondary"> Projects</span></div>
+        <div class="my-card">
+            <div class="card">
+                <div class="card-text">
+                    <h2 style="text-align:left;">12. Were You Born In Leap Year?</h2>
+                    <small>25th Aug, 2021 <br><strong>#bonusProject</strong></small>
+                    <p>This web-app built in HTML,CSS and Vanilla JS.This app checks whether you were born in a leap
+                        year or
+                        not. This app is just for fun and do not store any of your data.</p><br>
+                    <a class="btn-primary-card resp-btn" href="https://simran-leapyear.netlify.app/">Live
+                        Project</a>
+                    <a class="btn-secondary-card" href="https://github.com/simran61/BONUS-Is-Your-Bday-Leap-Year">View
                         Source Code</a>
                 </div>
             </div>
-        </li>
-        <br>
-        <li>
-            <div class="section ow">
-                <div class="container container-center">
+
+            <div class="card">
+                <div class="card-text">
                     <h2 style="text-align:left;">11. Profit-Loss Calculator</h2>
-                    <small>8th Aug, 2021</small><br>
-                    <small><strong>#mark14</strong></small>
-                    <p>This app built in HTML,CSS and Vanilla JS. This app checks the profit or loss of stock holder
-                        according to how many stock quantity he bought and its current price. Click on live project and try this app</p><br>
-                    <a class="link link-primary" href="https://simran-stock-claculator.netlify.app/">Live
-                        Project</a><br><br><br>
-                    <a class="link link-secondary" href="https://github.com/simran61/mark14-Stock-Calculator">View
+                    <small>8th Aug, 2021<br><strong>#mark14</strong></small>
+                    <p>This app built in HTML, CSS and Vanilla JS. This app checks weather the stock-holder has got profit or loss based on how many stock quantity he bought and its current price.</p><br>
+                    <a class="btn-primary-card resp-btn" href="https://simran-stock-claculator.netlify.app/">Live
+                        Project</a>
+                    <a class="btn-secondary-card" href="https://github.com/simran61/mark14-Stock-Calculator">View
                         Source Code</a>
                 </div>
             </div>
-        </li>
-        <br>
-        <li>
-            <div class="section">
-                <div class="container container-center">
-                    <h2 style="text-align:left;">10. Is Your Birthday Palindrome?</h2>
-                    <small>8th Aug, 2021</small><br>
-                    <small><strong>#mark13</strong></small>
-                    <p>This app built in HTML,CSS and Vanilla JS.This app checks whether your birthday is palindrome and
-                        if not palindrome then it will tell you the nearest palindrome date. Click on live project and
-                        try this app</p><br>
-                    <a class="link link-primary" href="https://simran-palindrome-birthday.netlify.app/">Live
-                        Project</a><br><br><br>
-                    <a class="link link-secondary" href="https://github.com/simran61/Mark13-Palindrome-Birthday">View
-                        Source Code</a>
-                </div>
-            </div>
-        </li>
-        <br>
-        <li>
-            <div class="section ow">
-                <div class="container container-center">
-                    <h2 style="text-align:left;">9. Fun with Triangle</h2>
-                    <small>30th July, 2021</small><br>
-                    <small><strong>#mark12</strong></small>
-                    <p>This app built in HTML,CSS and Vanilla JS. This is a fun mathematical app which checks your
-                        knowledge on triangles. This includes claculating hypotenuse, area, checking angle and a small quiz. Click on live project and try this app
-                    </p><br>
-                    <a class="link link-primary" href="https://simran-fun-with-triangles.netlify.app/">Live
-                        Project</a><br><br><br>
-                    <a class="link link-secondary" href="https://github.com/simran61/mark12-Triangle-quiz">View Source
-                        Code</a>
-                </div>
-            </div>
-        </li>
-        <br>
-        <li>
-            <div class="section">
-                <div class="container container-center">
-                    <h2 style="text-align:left;">8. Is Your BirthDate Lucky ?</h2>
-                    <small>26th July, 2021</small><br>
-                    <small><strong>#mark11</strong></small>
-                    <p>This app built in HTML,CSS and Vanilla JS. This app takes user birthdate and lucky number and based on it it tells you whether your birthday is lucky for you or not. Click on live project and try this app</p><br>
-                    <a class="link link-primary" href="https://simran-is-your-birthday-lucky.netlify.app/">Live
-                        Project</a><br><br><br>
-                    <a class="link link-secondary" href="https://github.com/simran61/mark11-Is-Your-Birthday-Lucky">View
-                        Source Code</a>
-                </div>
-            </div>
-        </li>
-        <br>
-        <li>
-            <div class="section ow">
-                <div class="container container-center">
-                    <h2 style="text-align:left;">7. Cash Register Manager</h2>
-                    <small>24th July, 2021</small><br>
-                    <small><strong>#mark10</strong></small>
-                    <p>This app built in HTML,CSS and Vanilla JS. This app takes the bill amount and cash given by the user and helps the user by telling he return the change to the customer with minimum number of notes. Click on live project and try this app</p><br>
-                    <a class="link link-primary" href="https://simran-cash-register.netlify.app/">Live
-                        Project</a><br><br><br>
-                    <a class="link link-secondary" href="https://github.com/simran61/mark10-Cash-Register-Manager">View
-                        Source Code</a>
-                </div>
-            </div>
-        </li>
-        <br>
-        <li>
-            <div class="section">
-                <div class="container container-center">
-                    <h2 style="text-align:left;">6. Songs Recommendations</h2>
-                    <small>23rd July, 2021</small><br>
-                    <small><strong>#mark9</strong></small>
-                    <p>This app built in ReactJs. This app will out some of my favourite songs which I recommend you to listen. Click on live project and try this app</p><br>
-                    <a class="link link-primary" href="https://simran-songsrecomendation.netlify.app/">Live
-                        Project</a><br><br><br>
-                    <a class="link link-secondary" href="https://github.com/simran61/mark9-Songs-Recomendations">View
-                        Source Code</a>
-                </div>
-            </div>
-        </li>
-        <br>
-        <li>
-            <div class="section ow">
-                <div class="container container-center">
-                    <h2 style="text-align:left;">5. Emoji Interpreter</h2>
-                    <small>22nd July, 2021</small><br>
-                    <small><strong>#mark8</strong></small>
-                    <p>This app built in ReactJs .
-                        Many-a-times we face difficulty in interpreting the meaning of some emojis. So here you can enter any emojis and it will tell you its meaning in just few seconds. Click on the live project and try this app.
-                    </p><br>
-                    <a class="link link-primary" href="https://simran-emoji-interpreter.netlify.app/">Live
-                        Project</a><br><br><br>
-                    <a class="link link-secondary" href="https://github.com/simran61/mark8-Emoji-Interpreter">View
-                        Source Code</a>
-                </div>
-            </div>
-        </li>
-        <br>
-        <li>
-            <div class="section">
-                <div class="container container-center">
-                    <h2 style="text-align:left;">4. Chiss Translator</h2>
-                    <small>21st July, 2021</small><br>
-                    <small><strong>#mark7</strong></small>
-                    <p>This app built in HTML,CSS and Vanilla JS. This app converts any sentence from English to Starwars Cheunh language. Cheunh was the official language of the Chiss. Click on the live project and try this app.</p><br>
-                    <a class="link link-primary" href="https://simran-chiss-translator.netlify.app/">Live
-                        Project</a><br><br><br>
-                    <a class="link link-secondary" href="https://github.com/simran61/mark7-Chiss-translator">View Source
-                        Code</a>
-                </div>
-            </div>
-        </li>
-        <br>
-        <li>
-            <div class="section ow">
-                <div class="container container-center">
-                    <h2 style="text-align:left;">3. Banana Speaks</h2>
-                    <small>21st July, 2021</small><br>
-                    <small><strong>#mark6</strong></small>
-                    <p>This app built in HTML,CSS and Vanilla JS. This app convert any sentence from English to Minion speak. This language is spoken by the minions in Despicable Me. Click on the live project and try this app.
-                    </p><br>
-                    <a class="link link-primary" href="https://simran-minion-speaks.netlify.app/">Live
-                        Project</a><br><br><br>
-                    <a class="link link-secondary" href="https://github.com/simran61/mark6-Minion-Speak">View Source
-                        Code</a>
-                </div>
-            </div>
-        </li>
-        <br>
-        <li>
-            <div class="section">
-                <div class="container container-center">
-                    <h2 style="text-align:left;">2. Are you a Pokemon Fan?</h2>
-                    <small>12th July, 2021</small><br>
-                    <small><strong>#mark2</strong></small>
-                    <p>This is a simple CLI quiz app build with nodeJS. This is just a fun quiz app to check how big fan you are of pokemon. Click on the live project and try this app.</p><br>
-                    <a class="link link-primary"
-                        href="https://replit.com/@SimranGangwani/Pokemon-Quiz?embed=1&output=1">Live
-                        Project</a><br><br><br>
-                    <a class="link link-secondary" href="https://github.com/simran61/mark2-Pokemon-Quiz">View Source
-                        Code</a>
-                </div>
-            </div>
-        </li>
-        <br>
-        <li>
-            <div class="section ow">
-                <div class="container container-center">
-                    <h2 style="text-align:left;">1. How well do you know me ?</h2>
-                    <small>12th July, 2021</small><br>
-                    <small><strong>#mark1</strong></small>
-                    <p>This is a simple CLI quiz app build with nodeJS. This is just a fun quiz app which you can edit and share with your friend to know who khows you the best! Click on the live project and try this app.</p><br>
-                    <a class="link link-primary"
-                        href="https://replit.com/@SimranGangwani/How-well-do-you-know-me?embed=1&output=1">Live
-                        Project</a><br><br><br>
-                    <a class="link link-secondary" href="https://github.com/simran61/mark1-Do-you-know-me">View Source
-                        Code</a>
-                </div>
-            </div>
-        </li>
-    </ul>
 
-    <!-- footer -->
-    <footer class="footer">
-        <div class="footer-header">Connect to me</div>
-        <ul class="social-links list-non-bullet">
-            <li class="list-item-inline">
-                <a class="link icon" target="_blank" href="https://github.com/simran61"><i
-                        class="fab fa-github-alt"></i></a>
+            <div class="card">
+                <div class="card-text">
+                    <h2 style="text-align:left;">10. Is Your Birthday Palindrome?</h2>
+                    <small>8th Aug, 2021 <br><strong>#mark13</strong></small>
+                    <p>This app built in HTML,CSS and Vanilla JS.This app checks whether your birthday is palindrome and
+                        if not palindrome then it will tell you the nearest palindrome date.</p><br>
+                    <a class="btn-primary-card resp-btn" href="https://simran-palindrome-birthday.netlify.app/">Live Project</a>
+                    <a class="btn-secondary-card" href="https://github.com/simran61/Mark13-Palindrome-Birthday">View
+                        Source Code</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-text">
+                    <h2 style="text-align:left;">9. Fun with Triangle</h2>
+                    <small>30th July, 2021 <br><strong>#mark12</strong></small>
+                    <p>This app built in HTML,CSS and Vanilla JS. This is a fun mathematical app which checks your
+                        knowledge on triangles. This includes claculating hypotenuse, area, checking angle and a small
+                        quiz.</p><br>
+                    <a class="btn-primary-card resp-btn" href="https://simran-fun-with-triangles.netlify.app/">Live Project</a>
+                    <a class="btn-secondary-card" href="https://github.com/simran61/mark12-Triangle-quiz">View Source
+                        Code</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-text">
+                    <h2 style="text-align:left;">8. Is Your BirthDate Lucky ?</h2>
+                <small>26th July, 2021 <br><strong>#mark11</strong></small>
+                <p>This app built in HTML,CSS and Vanilla JS. This app takes user birthdate and lucky number and based
+                    on it it tells you whether your birthday is lucky for you or not.</p><br>
+                <a class="btn-primary-card resp-btn" href="https://simran-is-your-birthday-lucky.netlify.app/">Live
+                    Project</a>
+                <a class="btn-secondary-card" href="https://github.com/simran61/mark11-Is-Your-Birthday-Lucky">View
+                    Source Code</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-text">
+                    <h2 style="text-align:left;">7. Cash Register Manager</h2>
+                <small>24th July, 2021 <br><strong>#mark10</strong></small>
+                <p>This app built in HTML,CSS and Vanilla JS. This app takes the bill amount and cash given by the user
+                    and helps the user by telling he return the change to the customer with minimum number of notes.</p><br>
+                <a class="btn-primary-card resp-btn" href="https://simran-cash-register.netlify.app/">Live
+                    Project</a>
+                <a class="btn-secondary-card" href="https://github.com/simran61/mark10-Cash-Register-Manager">View
+                    Source Code</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-text">
+                    <h2 style="text-align:left;">6. Songs Recommendations</h2>
+                <small>23rd July, 2021 <br><strong>#mark9</strong></small>
+                <p>This app built in ReactJs. This app will out some of my favourite songs which I recommend you to
+                    listen.</p><br>
+                <a class="btn-primary-card resp-btn" href="https://simran-songsrecomendation.netlify.app/">Live
+                    Project</a>
+                <a class="btn-secondary-card" href="https://github.com/simran61/mark9-Songs-Recomendations">View
+                    Source Code</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-text">
+                    <h2 style="text-align:left;">5. Emoji Interpreter</h2>
+                <small>22nd July, 2021 <br><strong>#mark8</strong></small>
+                <p>This app built in ReactJs .
+                    Many-a-times we face difficulty in interpreting the meaning of some emojis. So here you can enter
+                    any emojis and it will tell you its meaning in just few seconds. Click on the live project and try
+                    this app.
+                </p><br>
+                <a class="btn-primary-card resp-btn" href="https://simran-emoji-interpreter.netlify.app/">Live
+                    Project</a>
+                <a class="btn-secondary-card" href="https://github.com/simran61/mark8-Emoji-Interpreter">View
+                    Source Code</a>
+                </div>
+            </div>
+
+            <div class="card">
+               <div class="card-text">
+                <h2 style="text-align:left;">4. Chiss Translator</h2>
+                <small>21st July, 2021 <br><strong>#mark7</strong></small>
+                <p>This app built in HTML,CSS and Vanilla JS. This app converts any sentence from English to Starwars
+                    Cheunh language. Cheunh was the official language of the Chiss. Click on the live project and try
+                    this app.</p><br>
+                <a class="btn-primary-card resp-btn" href="https://simran-chiss-translator.netlify.app/">Live
+                    Project</a>
+                <a class="btn-secondary-card" href="https://github.com/simran61/mark7-Chiss-translator">View Source
+                    Code</a>
+               </div>
+            </div>
+
+            <div class="card">
+                <div class="card-text">
+                    <h2 style="text-align:left;">3. Banana Speaks</h2>
+                <small>21st July, 2021 <br><strong>#mark6</strong></small>
+                <p>This app built in HTML,CSS and Vanilla JS. This app convert any sentence from English to Minion
+                    speak. This language is spoken by the minions in Despicable Me. Click on the live project and try
+                    this app.
+                </p><br>
+                <a class="btn-primary-card resp-btn" href="https://simran-minion-speaks.netlify.app/">Live
+                    Project</a>
+                <a class="btn-secondary-card" href="https://github.com/simran61/mark6-Minion-Speak">View Source
+                    Code</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-text">
+                    <h2 style="text-align:left;">2. Are you a Pokemon Fan?</h2>
+                <small>12th July, 2021 <br><strong>#mark2</strong></small>
+                <p>This is a simple CLI quiz app build with nodeJS. This is just a fun quiz app to check how big fan you
+                    are of pokemon. Click on the live project and try this app.</p><br>
+                <a class="btn-primary-card resp-btn"
+                    href="https://replit.com/@SimranGangwani/Pokemon-Quiz?embed=1&output=1">Live
+                    Project</a>
+                <a class="btn-secondary-card" href="https://github.com/simran61/mark2-Pokemon-Quiz">View Source
+                    Code</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-text">
+                    <h2 style="text-align:left;">1. How well do you know me ?</h2>
+                <small>12th July, 2021 <br><strong>#mark1</strong> </small>
+                <p>This is a simple CLI quiz app build with nodeJS. This is just a fun quiz app which you can edit and
+                    share with your friend to know who khows you the best! Click on the live project and try this app.
+                </p><br>
+                <a class="btn-primary-card resp-btn"
+                    href="https://replit.com/@SimranGangwani/How-well-do-you-know-me?embed=1&output=1">Live
+                    Project</a>
+                <a class="btn-secondary-card" href="https://github.com/simran61/mark1-Do-you-know-me">View Source
+                    Code</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="footer">
+
+        <p class="footer-para">Connect with me</p>
+        <ul class="footer-ul">
+            <li><a class="menu footer-nav" href="https://github.com/simran61"><i class="fab fa-github-alt"></i></a>
             </li>
-            <li class="list-item-inline">
-                <a class="link icon" target="_blank" href="https://www.linkedin.com/in/simran-gangwani-b93a441b2/"><i
-                        class="fab fa-linkedin-in"></i></a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link icon" target="_blank" href="https://www.instagram.com/simran_wb65/"><i
-                        class="fab fa-instagram"></i></a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link icon" target="_blank" href="https://twitter.com/SimranGangwani3"><i
-                        class="fab fa-twitter"></i></a>
+            <li><a class="menu footer-nav" href="https://www.linkedin.com/in/simran-gangwani-b93a441b2/"><i
+                        class="fab fa-linkedin-in"></i></a></li>
+            <li><a class="menu footer-nav" href="https://www.instagram.com/simran_wb65/"><i
+                        class="fab fa-instagram"></i></a></li>
+            <li><a class="menu footer-nav" href="https://twitter.com/SimranGangwani3"><i class="fab fa-twitter"></i></a>
             </li>
         </ul>
-    </footer>
+        <p class="footer-copyright">© 2021, Built with ❤️ by Simran</p>
+    </section>
+
+    <div class="social-icons">
+        <a class="side-icon" href="https://github.com/simran61"><i class="fab fa-github-alt"></i></a></li>
+        <a class="side-icon" href="https://www.linkedin.com/in/simran-gangwani-b93a441b2/"><i
+                class="fab fa-linkedin-in"></i></a></li>
+        <a class="side-icon" href="https://www.instagram.com/simran_wb65/"><i class="fab fa-instagram"></i></a></li>
+        <a class="side-icon" style="margin-bottom: 0px;" href="https://twitter.com/SimranGangwani3"><i
+                class="fab fa-twitter"></i></a></li>
+    </div>
+
+    <script src="app.js"></script>
 </body>
 
 </html>

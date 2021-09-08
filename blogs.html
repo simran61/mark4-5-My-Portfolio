@@ -1,87 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blogs | SimranGangwani</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Simran Gangwani | Home</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
 </head>
 
 <body>
-    <!-- nav bar -->
-    <nav class="navigation container">
-        <div class="nav-brand">SimranCodes</div>
-        <ul class="list-non-bullet nav-pills">
-            <li class="list-item-inline">
-                <a class="link" href="/">Home</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="projects.html">Projects</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link link-active" href="blogs.html">Blogs</a>
-            </li>
+
+    <!-- Navigation Menu -->
+    <div class="nav-bar">
+        <div class="brand">SimranCodes</div>
+        <ul class="nav-menu">
+            <li class="menu"><a href="index.html" class="menu">Home</a></li>
+            <li class="menu"><a style="color: rgb(90, 163, 197);" href="blogs.html" class="menu">Blogs</a></li>
+            <li class="menu"><a href="projects.html" class="menu">Projects</a></li>
+            <li class="menu"><a href="index.html#designing" class="menu">Designing</a></li>
+            <li class="menu"><a href="index.html#skills" class="menu">Skills</a></li>
+            <li class="menu"><a href="index.html#contact" class="menu">Contact</a></li>
         </ul>
-    </nav>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </div>
+    <hr>
 
-    <!-- header -->
-    <header class="hero">
-        <img class="hero-img" src="images/blog.svg" alt="">
-        <h1 class="hero-heading">See my <span class="heading-inverted">blogs</span>.</h1>
-    </header>
-
-    <ul style="padding-inline-start: 0" class="list-non-bullet">
-        <li>
-            <div class="section ow">
-                <div class="container container-center">
+    <section style="padding-top: 0;" id="header" class="section">
+        <div style="text-align: center; margin: 2rem;" class="heading"><span class="grey">My</span><span class="secondary"> Blogs</span></div>
+        <div class="my-card">
+            <div class="card">
+                <div class="card-text">
                     <h2 style="text-align:left;">Free Illustration Sites & Libraries</h2>
-                    <small>15th Aug, 2021</small><br>
-                    <small><em>4 mins read</em></small>
-                    <p>Whether you are a graphic designer or a web designer, you would certainly be using several illustrations in your projects.In this blog I have listed out some of my favourite illustration sites which I have been using almost daily for more than a year now.....</p>
-                    <br>
-                    <a class="link link-primary" href="https://simrancodes.hashnode.dev/my-favourite-free-illustration-siteslibraries">Read Blog</a>
+                    <small>15th Aug, 2021 <br><em>4 mins read</em></small>
+                    <p>Whether you are a graphic designer or a web designer, you would certainly be using several illustrations in your projects. In this blog I have listed out some of my favourite illustration sites...</p><br>
+                    <a class="btn-primary-card" href="https://simrancodes.hashnode.dev/my-favourite-free-illustration-siteslibraries">Read Blog</a>
                 </div>
             </div>
-        </li>
-        <br>
-        <li>
-            <div class="section">
-                <div class="container container-center">
-                    <h2 style="text-align:left;">Functions In Javascript</h2>
-                    <small>14th Aug, 2021</small><br>
-                    <small><em>4 mins read</em></small>
-                    <p>Functions are the basic building blocks in JavaScript. This blog will help you understand the fundamentals of JavaScript functions in a simplified manner....</p>
-                    <br>
-                    <a class="link link-primary" href="https://simrancodes.hashnode.dev/javascript-functions">Read Blog</a>
-                </div>
-            </div>
-        </li>
-        <br>
-    </ul>
 
-    <!-- footer -->
-    <footer class="footer">
-        <div class="footer-header">Connect to me</div>
-        <ul class="social-links list-non-bullet">
-            <li class="list-item-inline">
-                <a class="link icon" target="_blank" href="https://github.com/simran61"><i class="fab fa-github-alt"></i></a>
+            <div class="card">
+                <div class="card-text">
+                    <h2 style="text-align:left;">Functions in JavaScript</h2>
+                    <small>14th Aug, 2021<br><em>4 mins read</em></small>
+                    <p>Functions are the basic building blocks in JavaScript. This blog will help you understand the fundamentals of JavaScript functions in a simplified manner....</p><br>
+                    <a class="btn-primary-card" href="https://simrancodes.hashnode.dev/javascript-functions">Read Blog</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-text">
+                    <h2 style="text-align:left;">Dummy Blog</h2>
+                    <small>8th Sept, 2021 <br><em>3 mins read</em></small>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repud iandae qui, est similique quasi impedit aliquid modinus corporis voluptate nisipea accusamus laudantium....</p><br>
+                    <a class="btn-primary-card" href="#">Read Blog</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="footer">
+
+        <p class="footer-para">Connect with me</p>
+        <ul class="footer-ul">
+            <li><a class="menu footer-nav" href="https://github.com/simran61"><i class="fab fa-github-alt"></i></a>
             </li>
-            <li class="list-item-inline">
-                <a class="link icon" target="_blank" href="https://www.linkedin.com/in/simran-gangwani-b93a441b2/"><i class="fab fa-linkedin-in"></i></a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link icon" target="_blank" href="https://www.instagram.com/simran_wb65/"><i class="fab fa-instagram"></i></a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link icon" target="_blank" href="https://twitter.com/SimranGangwani3"><i class="fab fa-twitter"></i></a>
+            <li><a class="menu footer-nav" href="https://www.linkedin.com/in/simran-gangwani-b93a441b2/"><i
+                        class="fab fa-linkedin-in"></i></a></li>
+            <li><a class="menu footer-nav" href="https://www.instagram.com/simran_wb65/"><i
+                        class="fab fa-instagram"></i></a></li>
+            <li><a class="menu footer-nav" href="https://twitter.com/SimranGangwani3"><i class="fab fa-twitter"></i></a>
             </li>
         </ul>
-    </footer>
+        <p class="footer-copyright">© 2021, Built with ❤️ by Simran</p>
+    </section>
+
+    <div class="social-icons">
+        <a class="side-icon" href="https://github.com/simran61"><i class="fab fa-github-alt"></i></a></li>
+        <a class="side-icon" href="https://www.linkedin.com/in/simran-gangwani-b93a441b2/"><i
+                class="fab fa-linkedin-in"></i></a></li>
+        <a class="side-icon" href="https://www.instagram.com/simran_wb65/"><i class="fab fa-instagram"></i></a></li>
+        <a class="side-icon" style="margin-bottom: 0px;" href="https://twitter.com/SimranGangwani3"><i
+                class="fab fa-twitter"></i></a></li>
+    </div>
+
+    <script src="app.js"></script>
 </body>
 
 </html>
