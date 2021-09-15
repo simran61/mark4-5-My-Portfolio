@@ -293,7 +293,8 @@ textarea{
 }
 
 .card{
-	max-width: 350px;
+	/* max-width: 350px; */
+	width: 300px;
 	background-color: rgba(6, 48, 63, 0.1);
 	margin: 1.2rem;
 	padding: 0.5rem;
@@ -330,7 +331,8 @@ textarea{
 
 .card p{
 	margin-top: 1rem;
-	font-size: 16px;
+	/* font-size: 16px; */
+	font-size: 15px;
 }
 
 .card h2{
